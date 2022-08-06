@@ -1,0 +1,3 @@
+<div class="pdp-link">
+    <a class="link" href="${pdict.urls.productSwatchUrl}">${pdict.selectedSwatchProduct ? pdict.selectedSwatchProduct.images.swatch[0].alt: product.productName}</a>
+</div>

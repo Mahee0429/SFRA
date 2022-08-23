@@ -1,0 +1,12 @@
+<!--- TEMPLATENAME: trackingscript.isml --->
+<isif condition="${pdict.affirmOnlineAndAnalytics}"> 
+	<script>
+	affirm.ui.ready(function(){
+		affirm.analytics.trackOrderConfirmed(
+				<isprint value="${pdict.orderInfo}" encoding="htmlsinglequote"/>,
+                null,
+				<isprint value="${pdict.validated}" encoding="htmlsinglequote"/>
+		);
+	})
+	</script>
+</isif>  

@@ -1,0 +1,2 @@
+<h1>This is from ISML File - Merkle_Company == From ISML File</h1>
+<h1>${Resource.msg('my.sample.message', 'myProperties', null)}</h1>
